@@ -3,7 +3,9 @@
     <div class="container">
         <div class="nav">
             <div class="nav-items">
-                <div class="logo">Clutch Transportation</div>
+                <div class="logo">
+                    <img src="@/assets/clutch_logo.png" alt="logo">
+                </div>
                 <div class="nav-links">
                     <router-link v-for="(route, index) in routes" :key="index" :to="route.path">
                         {{ route.name }}
@@ -76,6 +78,11 @@ const routes = [
     /* flex-basis: 100%; */
     /* height: 100%; */
     /* border: 1px solid salmon; */
+}
+
+.logo img {
+    width: 175px;
+    height: 65px;
 }
 
 .nav-links {
