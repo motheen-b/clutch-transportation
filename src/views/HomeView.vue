@@ -165,70 +165,53 @@
                     <h2>Ontario-Wide Coverage</h2>
                     <p>Comprehensive freight solutions across Ontario's major cities and regions</p>
                 </div>
-                <div class="coverage-grid">
-                    <div class="coverage-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                                fill="currentColor" />
-                        </svg>
-                        <span>Toronto</span>
-                    </div>
-                    <div class="coverage-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                                fill="currentColor" />
-                        </svg>
-                        <span>Ottawa</span>
-                    </div>
-                    <div class="coverage-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                                fill="currentColor" />
-                        </svg>
-                        <span>Mississauga</span>
-                    </div>
-                    <div class="coverage-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                                fill="currentColor" />
-                        </svg>
-                        <span>Hamilton</span>
-                    </div>
-                    <div class="coverage-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                                fill="currentColor" />
-                        </svg>
-                        <span>London</span>
-                    </div>
-                    <div class="coverage-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                                fill="currentColor" />
-                        </svg>
-                        <span>Kitchener</span>
-                    </div>
-                    <div class="coverage-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                                fill="currentColor" />
-                        </svg>
-                        <span>Windsor</span>
-                    </div>
-                    <div class="coverage-item">
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path
-                                d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"
-                                fill="currentColor" />
-                        </svg>
-                        <span>Barrie</span>
+                <div class="coverage-visual">
+                    <div class="coverage-regions">
+                        <div class="region-card">
+                            <div class="region-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                            <h3>GTA & Surrounding</h3>
+                            <p class="region-cities">Toronto · Mississauga · Hamilton · Oakville</p>
+                        </div>
+                        <div class="region-card">
+                            <div class="region-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                            <h3>Eastern Ontario</h3>
+                            <p class="region-cities">Ottawa · Kingston · Peterborough</p>
+                        </div>
+                        <div class="region-card">
+                            <div class="region-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-5 14H7v-2h7v2zm3-4H7v-2h10v2zm0-4H7V7h10v2z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                            <h3>Southwestern</h3>
+                            <p class="region-cities">London · Windsor · Kitchener · Waterloo</p>
+                        </div>
+                        <div class="region-card">
+                            <div class="region-icon">
+                                <svg width="32" height="32" viewBox="0 0 24 24" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M14 6l-3.75 5 2.85 3.8-1.6 1.2C9.81 13.75 7 10 7 10l-6 8h22L14 6z"
+                                        fill="currentColor" />
+                                </svg>
+                            </div>
+                            <h3>Northern Ontario</h3>
+                            <p class="region-cities">Sudbury · North Bay · Barrie</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -523,41 +506,102 @@ onUnmounted(() => {
     background: #f9fafb;
 }
 
-.coverage-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-    gap: 1.25rem;
+.coverage-visual {
+    max-width: 1200px;
+    margin: 3rem auto 0;
+    padding: 0 1rem;
 }
 
-.coverage-item {
+.coverage-regions {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+.region-card {
+    background: white;
+    border-radius: 16px;
+    padding: 2.5rem 2rem;
+    border: 1px solid #e5e7eb;
+    transition: all 0.3s ease;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.region-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #fa7523, #ff9057);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.region-card:hover::before {
+    transform: scaleX(1);
+}
+
+.region-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 40px rgba(250, 117, 35, 0.15);
+    border-color: #fa7523;
+}
+
+.region-icon {
+    width: 64px;
+    height: 64px;
+    margin: 0 auto 1.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 0.625rem;
-    background: #ffffff;
-    border: 1.5px solid #e5e7eb;
-    border-radius: 10px;
-    padding: 1.25rem 1rem;
-    font-weight: 600;
-    font-size: 0.9375rem;
-    color: #374151;
-    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.coverage-item svg {
-    color: #9ca3af;
-    flex-shrink: 0;
-    transition: color 0.2s ease;
-}
-
-.coverage-item:hover {
-    border-color: #fa7523;
-    background: rgba(250, 117, 35, 0.05);
-    transform: translateY(-2px);
-}
-
-.coverage-item:hover svg {
+    background: linear-gradient(135deg, rgba(250, 117, 35, 0.1), rgba(250, 117, 35, 0.05));
+    border-radius: 16px;
     color: #fa7523;
+    transition: all 0.3s ease;
+}
+
+.region-card:hover .region-icon {
+    transform: scale(1.1) rotate(5deg);
+    background: linear-gradient(135deg, rgba(250, 117, 35, 0.2), rgba(250, 117, 35, 0.1));
+}
+
+.region-card h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.75rem;
+    font-family: 'Inter', sans-serif;
+}
+
+.region-cities {
+    font-size: 0.9375rem;
+    color: #64748b;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.coverage-footer {
+    text-align: center;
+    padding: 2rem;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid #e5e7eb;
+}
+
+.coverage-footer p {
+    margin: 0;
+    font-size: 1rem;
+    color: #64748b;
+}
+
+.coverage-footer strong {
+    color: #111827;
+    font-weight: 600;
 }
 
 /* CTA Section */
@@ -778,6 +822,24 @@ onUnmounted(() => {
     .section-header p,
     .cta-content p {
         font-size: 1rem;
+    }
+
+    .coverage-regions {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+
+    .region-card {
+        padding: 2rem 1.5rem;
+    }
+
+    .region-icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .coverage-footer {
+        padding: 1.5rem;
     }
 
     .services-section,
