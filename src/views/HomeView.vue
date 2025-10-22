@@ -242,14 +242,6 @@
                     <p>Let's discuss how we can support your transportation needs</p>
                     <div class="cta-buttons">
                         <button class="btn btn-primary">
-                            <span>Request a Quote</span>
-                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2"
-                                    stroke-linecap="round" stroke-linejoin="round" />
-                            </svg>
-                        </button>
-                        <button class="btn btn-secondary">
                             <svg width="16" height="16" viewBox="0 0 24 24" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
