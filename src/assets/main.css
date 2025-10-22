@@ -5,18 +5,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(235, 235, 235)
+  background-color: #fafafa;
 }
 
 .main-container {
   width: 100%;
   max-width: 1440px;
   min-width: 320px;
-  background-color: #FAFAF5;
-  border: 1px solid black;
-  height: 100vh;
-  /* border-top-left-radius: 18px;
-  border-top-right-radius: 18px; */
+  background-color: #fafafa;
 }
 
 html {

@@ -1,191 +1,367 @@
 <template>
-    <div class="container">
-        <div class="container-content">
-            <h1>Cross Docking Services</h1>
-            <p>Maximize efficiency with ET Transport's Cross Docking Services. Our advanced crossdock facilities and warehouse systems seamlessly integrate cross docking and inventory management, enhancing your supply chain by reducing storage costs. Explore our cross dock solutions where warehousing meets rapid shipping efficiency.</p>
-            
-            <div class="button-group">
-                <button class="btn btn-primary">Get A Quote</button>
-                <button class="btn btn-secondary">Learn More</button>
+    <div class="hero-container">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="content-wrapper">
+                <span class="hero-badge">Professional Transportation Services</span>
+                <h1 class="hero-title">Moving Your Business Forward</h1>
+                <p class="hero-description">
+                    Clutch Transportation delivers reliable freight solutions across Ontario.
+                    We're a dedicated team committed to providing big results for your business.
+                </p>
+                <div class="hero-actions">
+                    <button class="btn btn-primary">
+                        <span>Request a Quote</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <button class="btn btn-secondary">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"
+                                fill="currentColor" />
+                        </svg>
+                        <span>(416) 786-2973</span>
+                    </button>
+                </div>
             </div>
-            
-            <div class="social-media">
-                <a href="#" class="social-link facebook">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z" fill="#1877F2"/>
-                    </svg>
-                </a>
-                <a href="#" class="social-link instagram">
-                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.354 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" fill="url(#instagram-gradient)"/>
-                        <defs>
-                            <linearGradient id="instagram-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
-                                <stop offset="0%" style="stop-color:#405DE6"/>
-                                <stop offset="10%" style="stop-color:#5851DB"/>
-                                <stop offset="20%" style="stop-color:#833AB4"/>
-                                <stop offset="30%" style="stop-color:#C13584"/>
-                                <stop offset="40%" style="stop-color:#E1306C"/>
-                                <stop offset="50%" style="stop-color:#FD1D1D"/>
-                                <stop offset="60%" style="stop-color:#F56040"/>
-                                <stop offset="70%" style="stop-color:#FCAF45"/>
-                                <stop offset="80%" style="stop-color:#FFDC80"/>
-                                <stop offset="90%" style="stop-color:#FFDC80"/>
-                                <stop offset="100%" style="stop-color:#405DE6"/>
-                            </linearGradient>
-                        </defs>
-                    </svg>
-                </a>
-            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 5v14M5 12l7 7 7-7" stroke="white" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </svg>
         </div>
     </div>
 </template>
 
 <script setup>
-
 </script>
 
 <style scoped>
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-.container {
-    display: flex;
-    height: 550px;
-    background-image: url('@/assets/hero-logo.png');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+.hero-container {
     position: relative;
-    /* border: 1px solid green; */
+    width: 100%;
+    height: 70vh;
+    min-height: 500px;
+    max-height: 700px;
+    background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
 }
 
-.container::before {
-    content: "";
+.hero-overlay {
     position: absolute;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+    height: 100%;
+    background:
+        radial-gradient(circle at 20% 50%, rgba(250, 117, 35, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(250, 117, 35, 0.05) 0%, transparent 50%);
     z-index: 1;
 }
 
-.container-content {
+.hero-content {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    max-width: 1200px;
+    padding: 0 2rem;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: center;
-    position: absolute;
-    gap: 0.7rem;
-    line-height: 1.5;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    color: white;
-    /* border: 1px solid red; */
-    backdrop-filter: blur(8px);
-    border-radius: 12px;
-    text-align: center;
-    padding: 1rem;
-    font-family: 'Montserrat', 'sans-serif';
-    font-size: 18px;
 }
 
-.button-group {
+.content-wrapper {
+    width: 100%;
+    max-width: 800px;
+    text-align: center;
+    color: white;
+}
+
+.hero-badge {
+    display: inline-block;
+    padding: 0.5rem 1.25rem;
+    background: rgba(250, 117, 35, 0.1);
+    border: 1px solid rgba(250, 117, 35, 0.3);
+    border-radius: 50px;
+    color: #fa7523;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.875rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    margin-bottom: 1.5rem;
+}
+
+.hero-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    color: white;
+    letter-spacing: -0.02em;
+}
+
+.hero-description {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.7;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 2.5rem;
+    max-width: 650px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.hero-actions {
     display: flex;
     gap: 1rem;
-    margin-top: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .btn {
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 4px;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1rem;
     font-weight: 600;
-    font-size: 14px;
+    border: none;
+    border-radius: 8px;
     cursor: pointer;
-    transition: all 0.3s ease;
-    font-family: 'Montserrat', sans-serif;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
 }
 
 .btn-primary {
-    background-color: #fa7523;
+    background: #fa7523;
     color: white;
+    box-shadow: 0 4px 20px rgba(250, 117, 35, 0.3);
 }
 
 .btn-primary:hover {
-    background-color: #e6681a;
+    background: #e06619;
     transform: translateY(-2px);
+    box-shadow: 0 8px 30px rgba(250, 117, 35, 0.4);
+}
+
+.btn-primary svg {
+    transition: transform 0.3s ease;
+    animation: arrowPulse 2s ease-in-out infinite;
+}
+
+.btn-primary:hover svg {
+    transform: translateX(4px);
+    animation: arrowSlide 0.6s ease-in-out infinite;
+}
+
+@keyframes arrowPulse {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(3px);
+    }
+}
+
+@keyframes arrowSlide {
+
+    0%,
+    100% {
+        transform: translateX(4px);
+    }
+
+    50% {
+        transform: translateX(8px);
+    }
 }
 
 .btn-secondary {
-    background-color: transparent;
-    color: white;
-    border: 2px solid white;
+    background: #ffffff;
+    color: #fa7523;
+    border: 2px solid #fa7523;
+    font-weight: 700;
+    box-shadow: 0 2px 8px rgba(250, 117, 35, 0.15);
 }
 
 .btn-secondary:hover {
-    background-color: white;
-    color: black;
+    background: #fa7523;
+    color: #ffffff;
+    border-color: #fa7523;
     transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(250, 117, 35, 0.3);
 }
 
-.social-media {
-    display: flex;
-    gap: 1rem;
-    margin-top: 0.5rem;
+.btn-secondary svg {
+    transition: transform 0.3s ease;
 }
 
-.social-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: all 0.3s ease;
-    backdrop-filter: blur(5px);
+.btn-secondary:hover svg {
+    transform: scale(1.1);
 }
 
-.social-link:hover {
-    transform: translateY(-2px);
+.hero-scroll-indicator {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 3;
+    animation: bounce 2s ease-in-out infinite;
+    opacity: 0.7;
+    cursor: pointer;
+    transition: opacity 0.3s ease;
 }
 
-.social-link.facebook:hover {
-    background-color: rgba(24, 119, 242, 0.3);
-    animation: facebookShift 2s ease-in-out infinite;
-    box-shadow: 0 0 20px rgba(24, 119, 242, 0.4);
+.hero-scroll-indicator:hover {
+    opacity: 1;
 }
 
-.social-link.instagram:hover {
-    background-color: rgba(225, 48, 108, 0.3);
-    animation: instagramShift 3s ease-in-out infinite;
-    box-shadow: 0 0 20px rgba(225, 48, 108, 0.4);
-}
+@keyframes bounce {
 
-@keyframes facebookShift {
-    0%, 100% {
-        filter: hue-rotate(0deg) saturate(1);
+    0%,
+    100% {
+        transform: translateX(-50%) translateY(0);
     }
+
     50% {
-        filter: hue-rotate(5deg) saturate(1.1);
+        transform: translateX(-50%) translateY(10px);
     }
 }
 
-@keyframes instagramShift {
-    0%, 100% {
-        filter: hue-rotate(0deg) saturate(1) brightness(1);
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 3rem;
     }
-    25% {
-        filter: hue-rotate(10deg) saturate(1.2) brightness(1.05);
+
+    .hero-description {
+        font-size: 1.0625rem;
     }
-    50% {
-        filter: hue-rotate(20deg) saturate(1.1) brightness(1.1);
+}
+
+@media (max-width: 992px) {
+    .hero-container {
+        height: 65vh;
+        min-height: 480px;
     }
-    75% {
-        filter: hue-rotate(15deg) saturate(1.15) brightness(1.05);
+
+    .hero-title {
+        font-size: 2.5rem;
+    }
+
+    .hero-description {
+        font-size: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .btn {
+        padding: 0.875rem 1.75rem;
+        font-size: 0.9375rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        height: 60vh;
+        min-height: 450px;
+    }
+
+    .hero-content {
+        padding: 0 1.5rem;
+    }
+
+    .hero-badge {
+        font-size: 0.8125rem;
+        padding: 0.4rem 1rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+        margin-bottom: 1.25rem;
+    }
+
+    .hero-description {
+        font-size: 0.9375rem;
+        margin-bottom: 1.75rem;
+    }
+
+    .hero-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .btn {
+        width: 100%;
+        max-width: 280px;
+        justify-content: center;
+        padding: 0.875rem 1.5rem;
+    }
+
+    .hero-scroll-indicator {
+        bottom: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-container {
+        height: 55vh;
+        min-height: 420px;
+    }
+
+    .hero-content {
+        padding: 0 1rem;
+    }
+
+    .hero-badge {
+        font-size: 0.75rem;
+        padding: 0.35rem 0.875rem;
+    }
+
+    .hero-title {
+        font-size: 1.75rem;
+        margin-bottom: 1rem;
+    }
+
+    .hero-description {
+        font-size: 0.875rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.8rem 1.25rem;
+        font-size: 0.875rem;
+        max-width: 260px;
+    }
+
+    .btn svg {
+        width: 14px;
+        height: 14px;
+    }
+
+    .hero-scroll-indicator {
+        bottom: 1rem;
+    }
+
+    .hero-scroll-indicator svg {
+        width: 20px;
+        height: 20px;
     }
 }
 </style>
